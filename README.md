@@ -31,6 +31,7 @@ const read = Hoast.read,
       rename = require('hoast-rename');
 
 Hoast(__dirname)
+  .use(read())
   .use(rename({
     engine: function(filePath) {
       return filePath.substr(0, filePath.lastIndexOf('.')).concat('md');
@@ -39,7 +40,6 @@ Hoast(__dirname)
 	  '**/*.markdown'
     ]
   }))
-  .use(read())
   .process();
 ```
 
