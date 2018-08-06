@@ -32,7 +32,7 @@ module.exports = function(options) {
 	
 	return async function(hoast, files) {
 		debug(`Running module.`);
-		return Promise.all(
+		await Promise.all(
 			files.map(async function(file) {
 				debug(`Processing file '${file.path}'.`);
 				
@@ -46,7 +46,7 @@ module.exports = function(options) {
 				
 				file.path = await options.engine(file.path);
 				assert(typeof(file.path) === 'string', 'hoast-rename: file path must be of type string.');
-				debug(`File path renamed.`);
+				debug(`File path renamed to ${file.path}.`);
 			})
 		);
 	};
