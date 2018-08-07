@@ -1,4 +1,4 @@
-# Hoast-rename
+# hoast-rename
 
 Rename the path of files using a specified function.
 
@@ -14,8 +14,8 @@ $ npm install hoast-rename
 
 ### Parameters
 
-* `patterns` **{Array of strings}**: An array of string which gets used to match files using glob patterns. See [nanomatch](https://github.com/micromatch/nanomatch#readme) for more details on the patterns.
-	* Required: `yes`
+* `patterns` **{Array|strings}**: A string or an array of strings which gets used to match files using glob patterns. See [nanomatch](https://github.com/micromatch/nanomatch#readme) for more details on the patterns.
+	* Required: `no`
 
 ### Examples
 

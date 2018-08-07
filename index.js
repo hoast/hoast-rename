@@ -13,7 +13,7 @@ const validateOptions = function(options) {
 	assert(typeof(options) === 'object', 'hoast-rename: options must be set and of type object.');
 	assert(typeof(options.engine) === 'function', 'hoast-rename: engine must be specified and of type function.');
 	if (options.patterns) {
-		assert(Array.isArray(options.patterns) && options.patterns.length, 'hoast-rename: patterns must be an array of string.');
+		assert(typeof(options.patterns) === 'string' || (Array.isArray(options.patterns) && options.patterns.length > 0 && typeof(options.patterns[0] === 'string')), 'hoast-rename: patterns must be of type string or an array of string.');
 	}
 };
 
@@ -38,7 +38,7 @@ module.exports = function(options) {
 				
 				assert(file.content !== null, 'hoast-convert: No content found on file, read module needs to be called before this.');
 				// Has to match patterns.
-				if (options.patterns && options.patterns.length > 0 && !nanomatch.any(file.path, options.patterns)) {
+				if (options.patterns && !nanomatch.any(file.path, options.patterns)) {
 					debug(`File not valid for processing.`);
 					return resolve();
 				}
