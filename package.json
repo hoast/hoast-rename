@@ -1,15 +1,15 @@
 {
   "author": "Ron Dekker",
   "name": "hoast-rename",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hoast module used to rename the path of files using a specified function.",
   "license": "ISC",
   "keywords": [
     "hoast",
-		"rename",
-		"paths"
-	],
-	"engines": {
+    "rename",
+    "paths"
+  ],
+  "engines": {
     "node": ">=7.8.0"
   },
   "main": "index.js",
@@ -21,9 +21,9 @@
   "bugs": {
     "url": "https://github.com/hoast/hoast-rename/issues"
   },
-	"peerDependencies": {
-		"hoast": "^0.0.1"
-	},
+  "peerDependencies": {
+    "hoast": "^0.0.3"
+  },
   "dependencies": {
     "nanomatch": "^1.2.13"
   },
