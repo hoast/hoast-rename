@@ -26,18 +26,18 @@ Not compatible with the CLI tool as it requires a reference to a self written fu
 **Script**
 
 ```javascript
-const Hoast = require('hoast');
+const Hoast = require(`hoast`);
 const read = Hoast.read,
-      rename = require('hoast-rename');
+      rename = require(`hoast-rename`);
 
 Hoast(__dirname)
   .use(read())
   .use(rename({
     engine: function(filePath) {
-      return filePath.substr(0, filePath.lastIndexOf('.')).concat('md');
+      return filePath.substr(0, filePath.lastIndexOf(`.`)).concat(`md`);
 	},
     patterns: [
-	  '**/*.markdown'
+	  `**/*.markdown`
     ]
   }))
   .process();
