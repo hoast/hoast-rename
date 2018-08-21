@@ -1,3 +1,21 @@
+<div align="center">
+  <a title="Version master branch" href="https://github.com/hoast/hoast-rename#readme" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/github/package-json/v/hoast/hoast-rename.svg?label=master&style=flat-square"/>
+  </a>
+  <a title="Version npm package" href="https://npmjs.com/package/hoast-rename" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/npm/v/hoast-rename.svg?label=npm&style=flat-square"/>
+  </a>
+  <a title="License agreement" href="https://github.com/hoast/hoast-rename/blob/master/LICENSE" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/github/license/hoast/hoast-rename.svg?style=flat-square"/>
+  </a>
+  <a title="Travis-ci build statis" href="https://travis-ci.org/hoast/hoast-rename" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/travis-ci/hoast/hoast-rename.svg?branch=master&style=flat-square"/>
+  </a>
+  <a title="Open issues on GitHub" href="https://github.com/hoast/hoast-rename/issues" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/github/issues/hoast/hoast-rename.svg?style=flat-square"/>
+  </a>
+</div>
+
 # hoast-rename
 
 Rename the path of files using a specified function.
