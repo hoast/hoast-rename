@@ -27,7 +27,7 @@ $ npm install hoast-rename
 
 **Cli**
 
-Not compatible with the CLI tool as it requires a reference to a self written function.
+Not compatible with the CLI tool as it requires a reference to a self specified function.
 
 **Script**
 
