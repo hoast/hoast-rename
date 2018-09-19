@@ -1,9 +1,9 @@
 // Node modules.
 const { extname } = require(`path`);
-// Dependecy modules.
+// Dependency modules.
 const test = require(`ava`);
 // Custom module.
-const Rename = require(`.`);
+const Rename = require(`../library`);
 
 test(`rename`, async function(t) {
 	// Create dummy files.
@@ -18,7 +18,7 @@ test(`rename`, async function(t) {
 		engine: function(path) {
 			return `c`.concat(extname(path));
 		},
-		patterns: `**/*.md`
+		patterns: `*.md`
 	};
 	
 	// Expected outcome.
@@ -30,6 +30,7 @@ test(`rename`, async function(t) {
 	
 	// Test module.
 	const rename = Rename(options);
+	rename.before();
 	await rename({}, files);
 	// Compare files.
 	t.deepEqual(files, filesOutcome);
