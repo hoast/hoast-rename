@@ -59,10 +59,7 @@ Hoast(__dirname)
     engine: function(filePath) {
       return filePath.substr(0, filePath.lastIndexOf(`.`)).concat(`md`);
 	  },
-    patterns: `**/*.markdown`,
-    patternOptions: {
-      globstar: true
-    }
+    patterns: `*.markdown`
   }))
   .process();
 ```
