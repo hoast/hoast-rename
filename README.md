@@ -1,10 +1,15 @@
-[![Version npm package](https://img.shields.io/npm/v/hoast-rename.svg?label=npm&style=flat-square)](https://npmjs.com/package/hoast-rename)
-[![Version npm package @next](https://img.shields.io/npm/v/hoast-rename/next.svg?label=npm/next&style=flat-square)](https://npmjs.com/package/hoast-rename/v/next)
-[![Version GitHub master branch](https://img.shields.io/github/package-json/v/hoast/hoast-rename.svg?label=github&style=flat-square)](https://github.com/hoast/hoast-rename#readme)
-[![Version GitHub develop branch](https://img.shields.io/github/package-json/v/hoast/hoast-rename/develop.svg?label=github/develop&style=flat-square)](https://github.com/hoast/hoast-rename/tree/develop#readme)
-[![License agreement](https://img.shields.io/github/license/hoast/hoast-rename.svg?style=flat-square)](https://github.com/hoast/hoast-rename/blob/master/LICENSE)
-[![Travis-ci build status](https://img.shields.io/travis-ci/hoast/hoast-rename.svg?label=travis&branch=master&style=flat-square)](https://travis-ci.org/hoast/hoast-rename)
-[![Open issues on GitHub](https://img.shields.io/github/issues/hoast/hoast-rename.svg?style=flat-square)](https://github.com/hoast/hoast-rename/issues)
+<div align="center">
+  
+  [![npm package @latest](https://img.shields.io/npm/v/hoast-rename.svg?label=npm@latest&style=flat-square&maxAge=3600)](https://npmjs.com/package/hoast-rename)
+  [![npm package @next](https://img.shields.io/npm/v/hoast-rename/next.svg?label=npm@next&style=flat-square&maxAge=3600)](https://npmjs.com/package/hoast-rename/v/next)
+  
+  [![Travis-ci status](https://img.shields.io/travis-ci/hoast/hoast-rename.svg?branch=master&label=test%20status&style=flat-square&maxAge=3600)](https://travis-ci.org/hoast/hoast-rename)
+  [![CodeCov coverage](https://img.shields.io/codecov/c/github/hoast/hoast-rename/master.svg?label=test%20coverage&style=flat-square&maxAge=3600)](https://codecov.io/gh/hoast/hoast-rename)
+  
+  [![License agreement](https://img.shields.io/github/license/hoast/hoast-rename.svg?style=flat-square&maxAge=86400)](https://github.com/hoast/hoast-rename/blob/master/LICENSE)
+  [![Open issues on GitHub](https://img.shields.io/github/issues/hoast/hoast-rename.svg?style=flat-square&maxAge=86400)](https://github.com/hoast/hoast-rename/issues)
+  
+</div>
 
 # hoast-rename
 
