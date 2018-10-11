@@ -30,7 +30,6 @@ test(`rename`, async function(t) {
 	
 	// Test module.
 	const rename = Rename(options);
-	rename.before();
 	await rename({}, files);
 	// Compare files.
 	t.deepEqual(files, filesOutcome);
