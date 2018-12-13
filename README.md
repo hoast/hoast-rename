@@ -65,7 +65,3 @@ Hoast(__dirname)
 ```
 
 > In the example only the markdown files with the `.markdown` extension are renamed to `.md`.
-
-## License
-
-[ISC license](https://github.com/hoast/hoast-rename/blob/master/LICENSE)
