@@ -1,3 +1,5 @@
+**Deprecated**: The [hoast-convert](https://github.com/hoast/hoast-convert) does everything this module can do, and more!
+
 <div align="center">
   
   [![npm package @latest](https://img.shields.io/npm/v/hoast-rename.svg?label=npm@latest&style=flat-square&maxAge=3600)](https://npmjs.com/package/hoast-rename)
